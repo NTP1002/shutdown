@@ -8,7 +8,6 @@ hb = 0
 mb = 0
 sb = 0
 
-
 def btnpress():
     hb = ht.get()
     mb = mt.get()
