@@ -10,9 +10,9 @@ mb = 0
 sb = 0
 
 def btnpress():
-    hb = ht.get()
-    mb = mt.get()
-    sb = st.get()
+    hb = int(ht.get())
+    mb = int(mt.get())
+    sb = int(st.get())
     hb *=3600
     mb *=60
     sb = sb+hb+mb
