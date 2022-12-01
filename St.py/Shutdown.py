@@ -1,4 +1,5 @@
 from tkinter import *
+from os import *
 window = Tk()
 window.geometry("600x400")
 window.title("타이머")
